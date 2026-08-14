@@ -132,7 +132,7 @@ class KeywordDetector(
 
     fun destroy() {
         stopListening()
-        model?.onDestroy()
+        model?.close()
         model = null
     }
 }
