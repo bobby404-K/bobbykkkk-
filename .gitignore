@@ -1,0 +1,19 @@
+# Local Gradle distribution downloads (do not commit)
+gradle-8.4/
+gradle-8.*/
+
+# Gradle build outputs
+.gradle/
+build/
+app/build/
+
+# Local properties
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
